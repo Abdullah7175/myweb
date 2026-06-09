@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: "Abdullah Anis — DevOps Engineer Portfolio",
     short_name: "Abdullah Anis",
     description:
-      "DevOps Engineer, Full-Stack Developer, and IT System Director portfolio.",
+      "DevOps Engineer, Full-Stack Developer portfolio.",
     start_url: "/",
     display: "standalone",
     background_color: "#020617",

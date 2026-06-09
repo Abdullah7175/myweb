@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Abdullah Anis",
-  title: "DevOps Engineer | Full-Stack Developer | IT System Director",
+  title: "DevOps Engineer | Full-Stack Developer",
   email: "abdullah7175@gmail.com",
   phone: "+92 333 0355270",
   linkedin: "https://www.linkedin.com/in/abdullahanis-it/",
