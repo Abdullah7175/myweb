@@ -1,11 +1,11 @@
 import type { MetadataRoute } from "next";
+import { siteConfig } from "@/data/portfolio";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Abdullah Anis — DevOps Engineer Portfolio",
-    short_name: "Abdullah Anis",
-    description:
-      "DevOps Engineer, Full-Stack Developer portfolio.",
+    name: `${siteConfig.name} — Web Development & DevOps Services`,
+    short_name: siteConfig.name,
+    description: siteConfig.description,
     start_url: "/",
     display: "standalone",
     background_color: "#020617",

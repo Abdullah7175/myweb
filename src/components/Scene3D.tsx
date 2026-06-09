@@ -109,7 +109,7 @@ function SceneContent() {
 
 export default function Scene3D() {
   return (
-    <div className="pointer-events-none absolute inset-0 -z-10">
+    <div className="pointer-events-none fixed inset-0 -z-10">
       <Canvas
         camera={{ position: [0, 0, 7], fov: 55 }}
         dpr={[1, 1.5]}

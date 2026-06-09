@@ -46,3 +46,12 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #22d3ee;
 }
+
+.logo-3d {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.group:hover .logo-3d {
+  transform: scale(1.05);
+  box-shadow: 0 0 24px rgba(34, 211, 238, 0.45);
+}

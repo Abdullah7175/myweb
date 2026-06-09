@@ -25,7 +25,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: `${siteConfig.name} | DevOps Engineer & Full-Stack Developer`,
+    default: `${siteConfig.name} | Web Development & DevOps Services`,
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
@@ -49,41 +49,21 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: siteConfig.url,
     siteName: siteConfig.name,
-    title: `${siteConfig.name} | DevOps Engineer & Full-Stack Developer`,
+    title: `${siteConfig.name} | Web Development & DevOps Services`,
     description: siteConfig.description,
   },
   twitter: {
     card: "summary_large_image",
-    title: `${siteConfig.name} | DevOps Engineer & Full-Stack Developer`,
+    title: `${siteConfig.name} | Web Development & DevOps Services`,
     description: siteConfig.description,
   },
   alternates: {
     canonical: siteConfig.url,
   },
+  verification: {
+    google: "ceKttM71m-2EJveQp0UPIEZ6o6LCixd-tN2t5SoMFZE",
+  },
   category: "technology",
-};
-
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "Person",
-  name: siteConfig.name,
-  jobTitle: "DevOps Engineer",
-  description: siteConfig.description,
-  email: siteConfig.email,
-  telephone: siteConfig.phone,
-  url: siteConfig.url,
-  sameAs: [siteConfig.linkedin],
-  knowsAbout: siteConfig.keywords,
-  alumniOf: [
-    {
-      "@type": "CollegeOrUniversity",
-      name: "NED University of Engineering & Technology",
-    },
-    {
-      "@type": "CollegeOrUniversity",
-      name: "Charles Sturt University",
-    },
-  ],
 };
 
 export default function RootLayout({
@@ -98,10 +78,6 @@ export default function RootLayout({
     >
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
       </head>
       <body className="relative min-h-full bg-[#020617] text-slate-200 antialiased">
         {children}

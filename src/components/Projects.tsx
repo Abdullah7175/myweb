@@ -12,8 +12,8 @@ export default function Projects() {
         <SectionHeader
           id="projects"
           label="Projects"
-          title="Key Deployments"
-          subtitle="Enterprise systems built for KW&SC and beyond."
+          title="Featured Deployments"
+          subtitle="Enterprise systems delivered for government and business clients."
         />
 
         <div className="grid gap-6 md:grid-cols-2">
@@ -35,7 +35,10 @@ export default function Projects() {
                   <span className="font-mono text-[10px] text-slate-600">PRJ-0{index + 1}</span>
                 </div>
                 <h3 className="mb-2 text-lg font-semibold text-white">{project.name}</h3>
-                <p className="mb-4 text-sm leading-relaxed text-slate-400">{project.description}</p>
+                <p className="mb-3 text-sm leading-relaxed text-slate-400">{project.description}</p>
+                <p className="mb-4 border-l-2 border-cyan-500/40 pl-3 text-sm text-cyan-200/80">
+                  {project.outcome}
+                </p>
                 <div className="flex flex-wrap gap-2">
                   {project.tags.map((tag) => (
                     <span

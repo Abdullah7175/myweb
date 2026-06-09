@@ -1,6 +1,9 @@
 export const siteConfig = {
-  name: "Abdullah Anis",
-  title: "DevOps Engineer | Full-Stack Developer",
+  name: "Syed Abdull",
+  initials: "SA",
+  title: "DevOps Engineer | Full-Stack Developer | IT Solutions",
+  tagline:
+    "Custom websites, cloud infrastructure, and enterprise portals — built to perform and scale.",
   email: "abdullah7175@gmail.com",
   phone: "+92 333 0355270",
   linkedin: "https://www.linkedin.com/in/abdullahanis-it/",
@@ -8,24 +11,175 @@ export const siteConfig = {
     process.env.NEXT_PUBLIC_SITE_URL ??
     (process.env.VERCEL_URL
       ? `https://${process.env.VERCEL_URL}`
-      : "https://abdullahanis.dev"),
+      : "https://syed-abdull.vercel.app"),
   description:
-    "Results-driven IT professional with 7+ years in DevOps, cloud infrastructure, full-stack development, and enterprise systems. Expert in AWS, Azure, Kubernetes, Next.js, and CI/CD automation.",
+    "Professional web development, DevOps, cloud infrastructure, and BI solutions. Website packages, enterprise portals, CI/CD automation, and Power BI dashboards for businesses in Pakistan and worldwide.",
   keywords: [
-    "Abdullah Anis",
-    "DevOps Engineer",
-    "Full-Stack Developer",
-    "Cloud Infrastructure",
-    "AWS",
-    "Azure",
-    "Kubernetes",
-    "Docker",
-    "Next.js",
-    "Power BI",
-    "CI/CD",
-    "Pakistan",
+    "Syed Abdull",
+    "website development Pakistan",
+    "web development services",
+    "website packages",
+    "DevOps engineer",
+    "full-stack developer",
+    "Next.js developer",
+    "cloud infrastructure",
+    "Power BI dashboards",
+    "enterprise portal development",
+    "CI/CD automation",
+    "AWS Azure",
+    "custom website builder",
+  ],
+  aboutKeywords: [
+    "Syed Abdull portfolio",
+    "DevOps engineer Pakistan",
+    "full-stack developer CV",
+    "IT infrastructure specialist",
+    "enterprise systems engineer",
+    "NED University",
+    "KW&SC projects",
+    "Power BI consultant",
   ],
 };
+
+export const services = [
+  {
+    id: "web-development",
+    title: "Custom Website Development",
+    icon: "globe",
+    description:
+      "Modern, responsive websites and web apps built with Next.js, React, and TailwindCSS — optimized for speed, SEO, and conversions.",
+    tags: ["Next.js", "React", "SEO", "Responsive Design"],
+  },
+  {
+    id: "devops-cloud",
+    title: "DevOps & Cloud Infrastructure",
+    icon: "cloud",
+    description:
+      "AWS and Azure deployments, Docker containerization, Kubernetes orchestration, and Terraform infrastructure as code.",
+    tags: ["AWS", "Azure", "Docker", "Kubernetes", "Terraform"],
+  },
+  {
+    id: "enterprise-portals",
+    title: "Enterprise Portal Development",
+    icon: "portal",
+    description:
+      "Scalable business portals with real-time dashboards, API integrations, PostgreSQL backends, and role-based access control.",
+    tags: ["PostgreSQL", "WebSocket", "API Integration", "RBAC"],
+  },
+  {
+    id: "bi-analytics",
+    title: "Power BI & Analytics Dashboards",
+    icon: "chart",
+    description:
+      "Interactive dashboards, ETL pipelines, and automated reporting that turn raw data into actionable business insights.",
+    tags: ["Power BI", "ETL", "SQL", "KPI Reporting"],
+  },
+  {
+    id: "cicd-automation",
+    title: "CI/CD & Deployment Automation",
+    icon: "pipeline",
+    description:
+      "GitHub Actions pipelines, automated testing, and zero-downtime deployments that cut manual work by 70%+.",
+    tags: ["GitHub Actions", "CI/CD", "Docker", "Monitoring"],
+  },
+  {
+    id: "it-infrastructure",
+    title: "IT Infrastructure Management",
+    icon: "server",
+    description:
+      "Windows/Linux server administration, VMware virtualization, backup systems, and 99.9%+ uptime monitoring with Prometheus and Grafana.",
+    tags: ["Linux", "VMware", "Prometheus", "Grafana", "ELK"],
+  },
+];
+
+export const packages = [
+  {
+    id: "starter",
+    name: "Starter",
+    price: "From $299",
+    popular: false,
+    description: "Perfect for freelancers, startups, and personal brands getting online fast.",
+    features: [
+      "Single-page or 3-page responsive website",
+      "Mobile-first design",
+      "Basic SEO setup & meta tags",
+      "Contact form integration",
+      "1 round of revisions",
+      "7-day delivery",
+    ],
+    cta: "Get Started",
+    tags: ["landing page", "startup website", "basic SEO"],
+  },
+  {
+    id: "business",
+    name: "Business",
+    price: "From $799",
+    popular: true,
+    description: "Multi-page business sites with advanced features for growing companies.",
+    features: [
+      "Up to 8 custom pages",
+      "Advanced SEO & sitemap",
+      "CMS-ready architecture",
+      "Analytics integration",
+      "Performance optimization",
+      "3 rounds of revisions",
+      "14-day delivery",
+    ],
+    cta: "Most Popular",
+    tags: ["business website", "multi-page", "advanced SEO"],
+  },
+  {
+    id: "enterprise",
+    name: "Enterprise",
+    price: "Custom Quote",
+    popular: false,
+    description: "Full-scale portals, dashboards, and cloud deployments for organizations.",
+    features: [
+      "Custom portal or web application",
+      "Database & API integration",
+      "Real-time dashboards",
+      "CI/CD & cloud deployment",
+      "Monitoring & security setup",
+      "Ongoing support options",
+      "Timeline based on scope",
+    ],
+    cta: "Request Quote",
+    tags: ["enterprise portal", "cloud deployment", "custom application"],
+  },
+];
+
+export const achievements = [
+  {
+    metric: "70%+",
+    label: "Deployment Automation",
+    description: "Reduced manual deployment effort through GitHub Actions CI/CD pipelines.",
+  },
+  {
+    metric: "99.995%",
+    label: "System Uptime",
+    description: "Maintained enterprise-grade datacenter and cloud availability.",
+  },
+  {
+    metric: "7+",
+    label: "Years Experience",
+    description: "Systems administration, DevOps, full-stack development, and BI solutions.",
+  },
+  {
+    metric: "10+",
+    label: "Enterprise Projects",
+    description: "Delivered portals, dashboards, and digital systems for KW&SC and clients.",
+  },
+  {
+    metric: "99.9%",
+    label: "Backup Reliability",
+    description: "Automated backup pipelines ensuring server and application continuity.",
+  },
+  {
+    metric: "5+",
+    label: "Cloud Platforms",
+    description: "Production experience across AWS, Azure, Docker, Kubernetes, and VMware.",
+  },
+];
 
 export const summary =
   "Results-driven IT professional with proven ability to manage technology projects, optimize systems, and solve complex technical challenges. Experienced with 7+ years in systems administration, DevOps, cloud infrastructure, and full-stack development — deploying enterprise IT environments across Windows/Linux servers, VMware, AWS/Azure, and high-availability datacenters.";
@@ -130,6 +284,7 @@ export const projects = [
     client: "KW&SC",
     description:
       "Fully digitalized filing system covering document submissions, departmental daak, and meeting scheduling with improved transparency and tracking.",
+    outcome: "Streamlined cross-department workflows and eliminated paper-based bottlenecks.",
     tags: ["Next.js", "PostgreSQL", "Workflow Automation"],
   },
   {
@@ -137,6 +292,7 @@ export const projects = [
     client: "KW&SC",
     description:
       "Real-time monitoring dashboards with Power BI and Next.js; optimized PostgreSQL queries for operational insights.",
+    outcome: "Enabled live groundwater monitoring with data-driven decision support.",
     tags: ["Power BI", "Next.js", "PostgreSQL"],
   },
   {
@@ -144,6 +300,7 @@ export const projects = [
     client: "KW&SC",
     description:
       "Scalable media archive system with secure cloud-native storage and high availability for media retrieval.",
+    outcome: "Delivered secure, high-availability media storage and retrieval at scale.",
     tags: ["Cloud Storage", "High Availability", "Media"],
   },
   {
@@ -151,6 +308,7 @@ export const projects = [
     client: "KW&SC",
     description:
       "API-integrated PostgreSQL database for operational analytics, complaint tracking, and senior management reporting.",
+    outcome: "Reduced complaint resolution time with real-time analytics for management.",
     tags: ["API Integration", "PostgreSQL", "Analytics"],
   },
 ];
@@ -190,3 +348,21 @@ export const techStack = [
   "Linux",
   "VMware",
 ];
+
+export const serviceIcons: Record<string, string> = {
+  globe: "◉",
+  cloud: "☁",
+  portal: "⬡",
+  chart: "▲",
+  pipeline: "⟁",
+  server: "◎",
+};
+
+export const expertiseIcons: Record<string, string> = {
+  server: "⬡",
+  cloud: "☁",
+  code: "⟨/⟩",
+  shield: "◈",
+  chart: "▲",
+  team: "◎",
+};
