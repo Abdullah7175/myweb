@@ -28,6 +28,10 @@ export const siteConfig = {
     "CI/CD automation",
     "AWS Azure",
     "custom website builder",
+    "Abdullah Anis",
+    "Abdullah",
+    "IT",
+    "devops",
   ],
   aboutKeywords: [
     "Syed Abdull portfolio",
